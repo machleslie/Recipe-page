@@ -1,0 +1,125 @@
+@font-face{
+  font-family: "outfit";
+  src:url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf')
+}
+@font-face{
+  font-family: "young-sherif";
+  src:url('./assets/fonts/young-serif/YoungSerif-Regular.ttf')
+}
+
+h1 ,h2, h3{
+  font-family: "young-sherif";
+}
+
+*{
+  font-family: "outfit";
+}
+
+.container {
+  margin: 28%;
+  margin-top: 4%;
+  background: white;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+  color: rgb(109, 34, 34);
+}
+.image-container {
+  margin: 4%;
+  width: 90%;
+  border-radius: 24px;
+}
+img {
+  width: 100%;
+  border-radius: 24px;
+}
+body {
+  background: hsl(330, 100%, 98%);
+}
+.intro {
+  margin: 5%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.preapration {
+  background: hsl(330, 100%, 98%);
+  border-radius: 16px;
+  padding: 2%;
+  padding-right: 48%;
+}
+.preapration >h3{
+  color: hsl(332, 51%, 32%);
+  font-family: 'outfit';
+}
+.ingredients {
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgb(195, 195, 195);
+  padding-right: 20%;
+  padding-left: 0px;
+}
+
+li {
+  margin-right: 10px;
+}
+.instructions {
+  margin: 0% 5%;
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgb(195, 195, 195);
+
+}
+.nutritioncontainer > p {
+  text-align: start;
+}
+.nutritioncontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+}
+.nutrition-facts {
+  width: 89%;
+  margin-bottom: 5%;
+  
+}
+br {
+  border: solid;
+}
+
+td {
+  margin: 0px;
+  border-bottom: 2px solid #000000;
+  padding: 0px;
+  border-width: 1px;
+  border-color: rgb(195, 195, 195);
+}
+table {
+  width: 80%;
+  align-items: center;
+}
+@media (max-width:426px){
+  .container{
+    margin: 0px;
+    border-radius: 0px;
+  }
+  body{
+    background: white;
+  }
+  .preapration{
+    padding-right: 2%;
+    width: 90%;
+    border-radius:12px ;
+  }
+  .image-container{
+    margin: 0px;
+    width: 100%;
+  }
+  img{
+    border-radius: 0px;
+  }
+}
